@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 public class CorsConfig {
     @Bean
     public OpenAPI customOpenAPI() {
-        return new OpenAPI().addServersItem(new Server().url("http://api-alunos-production.up.railway.app/swagger-ui/index.html#/"))
+        return new OpenAPI().addServersItem(new Server().url("http://courageous-price-production.up.railway.app/swagger-ui/index.html#/"))
                 .addServersItem(new Server().url("http://localhost:8080"));
     }
 }
